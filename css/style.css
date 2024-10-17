@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -9,8 +8,8 @@ body {
 }
 
 .landing-page {
-    background-color: rgb(199, 199, 199);
-    height: 100vh;
+   height: 75vh;
+   margin-top: 100px;
 }
 
 
