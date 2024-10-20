@@ -1,0 +1,21 @@
+body {
+    overflow-x: hidden;
+}
+
+
+
+
+.review-card {
+    min-height: 350px !important;
+}
+
+.footer {
+    background-color: #ddeeff !important;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .feature-card {
+        height: 120px !important;
+    }
+}

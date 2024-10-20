@@ -7,12 +7,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.landing-page, .products, .about-us {
-    height: 100vh;
-}
+
 
 .landing-page {
     background-color: #f1f1f1;
+    height: 95vh;
 }
 
 .home-page-heading {
@@ -21,15 +20,22 @@ body {
 }
 
 
+.about-us {
+    height: 100vh;
+}
 
 
 .about-us-heading::before {
     content: '';
     display: block;
     position: absolute;
-    top: 28px;
+    top: 34px;
     left: 5px;
     width: 2px;
-    height: 22px;
+    height: 23px;
     background-color: rgb(59, 137, 226);
+}
+
+.footer {
+    background-color: #ddeeff !important;
 }
