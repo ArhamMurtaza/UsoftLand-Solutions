@@ -7,9 +7,12 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.landing-page, .products, .about-us {
+    height: 100vh;
+}
+
 .landing-page {
     background-color: #f1f1f1;
-    height: 100vh;
 }
 
 .home-page-heading {
@@ -17,9 +20,7 @@ body {
     margin-top: 15vh;
 }
 
-.about-us {
-    height: 100vh;
-}
+
 
 
 .about-us-heading::before {
